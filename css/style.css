@@ -1,0 +1,72 @@
+body {
+	background-color: #1D1D1D;
+}
+
+.whole-thing{
+	margin-left: 2.5%;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+.menu-buttons li{
+	display: inline-block;
+	margin-right: 1%;
+	margin-left: 1%;
+	padding: 1.5%;
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-buttons {
+	padding: 0;
+}
+
+.menu-buttons li:first-child{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.menu-buttons >li>a {
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+}
+
+.name {
+	position: relative;
+	font-family: 'Alex Brush', cursive;
+	font-size: 70px;
+	color: #D6DBDB;
+}
+
+.line {
+	position: relative;
+	height: 2px;
+	width: 90%;
+	background-color: #D6DBDB;
+}
+
+.who-i-am {
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.why-i-am-here {
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.what-i-do {
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.how-to-contact-me {
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.how-to-contact-me a{
+	color: #D6DBDB;
+	font-family: 'Josefin Sans', sans-serif;
+}
