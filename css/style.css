@@ -49,21 +49,25 @@ body {
 .who-i-am {
 	color: #D6DBDB;
 	font-family: 'Josefin Sans', sans-serif;
+	display: none;
 }
 
 .why-i-am-here {
 	color: #D6DBDB;
 	font-family: 'Josefin Sans', sans-serif;
+	display: none;
 }
 
 .what-i-do {
 	color: #D6DBDB;
 	font-family: 'Josefin Sans', sans-serif;
+	display: none;
 }
 
 .how-to-contact-me {
 	color: #D6DBDB;
 	font-family: 'Josefin Sans', sans-serif;
+	display: none;
 }
 
 .how-to-contact-me a{

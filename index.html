@@ -7,29 +7,68 @@
 		<title>GarrettHeadden</title>
 		<meta name="description" content="">
 		<meta name="author" content="Garrett Headden">
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<meta name="viewport" content="wclassth=device-wclassth; initial-scale=1.0">
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
+		<meta name="viewport" content="wclassth=device-wclassth, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
 	<!--stylesheet-->
 		<link rel="stylesheet" href="css/style.css">
 	<!--google-fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Alex+Brush|Molengo' rel='stylesheet' type='text/css'>	
 		
+	<!--jquery-->
+		<script>
+			$( document ).ready(function() {
+
+
+				$( "#who-i-am-button" ).click(function() {
+					$("#who-i-am-id").fadeToggle();
+					$("#what-i-do-id").css('display', 'none');
+					$("#why-i-am-here-id").css('display', 'none');
+					$("#how-to-contact-me-id").css('display', 'none');
+				});
+
+				$( "#why-i-am-here-button" ).click(function() {
+					$("#why-i-am-here-id").fadeToggle();
+					$("#who-i-am-id").css('display', 'none');
+					$("#what-i-do-id").css('display', 'none');
+					$("#how-to-contact-me-id").css('display', 'none');
+				});
+
+				$( "#what-i-do-button" ).click(function() {
+					$("#what-i-do-id").fadeToggle();
+					$("#who-i-am-id").css('display', 'none');
+					$("#why-i-am-here-id").css('display', 'none');
+					$("#how-to-contact-me-id").css('display', 'none');
+				});
+
+				$( "#how-to-contact-me-button" ).click(function() {
+					$("#how-to-contact-me-id").fadeToggle();
+					$("#who-i-am-id").css('display', 'none');
+					$("#why-i-am-here-id").css('display', 'none');
+					$("#what-i-do-id").css('display', 'none');
+				});
+
+
+			});
+		</script>	
+
 	</head>
 	
 	<body>
-		<div id="whole-thing">
-			<div id="name">Garrett Headden</div>		
-			<div id="line"></div>
-			<ul id="menu-buttons">
-				<li><a href="#">who i am</a></li>
-				<li><a href="#">why i am here</a></li>
-				<li><a href="#">what i do</a></li>
-				<li><a href="#">how to contact me</a></li>
+		<div class="whole-thing">
+			<div class="name">Garrett Headden</div>		
+			<div class="line"></div>
+			<ul class="menu-buttons">
+				<li id="who-i-am-button"><a href="#">who i am</a></li>
+				<li id="why-i-am-here-button"><a href="#">why i am here</a></li>
+				<li id="what-i-do-button"><a href="#">what i do</a></li>
+				<li id="how-to-contact-me-button"><a href="#">how to contact me</a></li>
 			</ul>
-			<div id="who-i-am">
+			<br>
+			<div class="who-i-am" id="who-i-am-id">
 				<h1>who i am</h1>
 				<p>my name is Garrett Headden.  i was born and raised in Knoxville, TN.  the son of two hard-working, business-minded parents.</p>
 				
@@ -37,7 +76,7 @@
 
 				<p>as a business professional, i am an entrepreneur.  more specifically a web developer and marketing specialist.</p>
 			</div>
-			<div id="why-i-am-here">
+			<div class="why-i-am-here" id="why-i-am-here-id">
 				<h1>why i am here</h1>
 				<p>my passion is communication.  making it easier.  more transparent.</p>
 				
@@ -55,21 +94,21 @@
 				
 				<p>are we willing to care that much?</p>
 				
-				<p>are we willing to be entirely selfless, yet remain confident and motivated at the same time?</p>
+				<p>are we willing to be entirely selfless, yet remain confclassent and motivated at the same time?</p>
 				
 				<p>can we be a sponge for knowledge, but never lose grasp on the knowledge we have to offer the world?</p>
 			</div>
-			<div id="what-i-do">
+			<div class="what-i-do" id="what-i-do-id">
 				<h1>what i do</h1>
 				<p>currently, all of my time and energy is going into furthering the efforts of a local startup web development company, Project Novo.</p>
 
 				<p>my team consists of valentino constantinou. trevor overman. and taylor stevens.</p>
 
-				<p>we aim to provide the highest quality websites, at a price to provide your business the maximum possible value out of your technological presence.</p>
+				<p>we aim to provclasse the highest quality websites, at a price to provclasse your business the maximum possible value out of your technological presence.</p>
 
 				<p>our skills focus on creating an online presence that communicates your business’s brand in a manner that caters directly to your specific target customer, all while doing so in a creative business atmosphere that is collaborative and open without any barrier to communication.</p>
 			</div>
-			<div id="how-to-contact-me">
+			<div class="how-to-contact-me" id="how-to-contact-me-id">
 				<h1>how to contact me</h1>
 				<a href="mailto:garrettheadden@gmail.com">garrettheadden@gmail.com</a>
 				<p>865.696.9382</p>
