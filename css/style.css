@@ -14,7 +14,10 @@ body {
 	margin-left: 1%;
 	padding: 1.5%;
 	color: #D6DBDB;
+	font-size: 30px;
 	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+  	position: relative;
 }
 
 .menu-buttons {
@@ -73,4 +76,8 @@ body {
 .how-to-contact-me a{
 	color: #D6DBDB;
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+	color: #9CDE45;
 }
