@@ -14,7 +14,7 @@ body {
 	margin-left: 1%;
 	padding: 1.5%;
 	color: #D6DBDB;
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
   	position: relative;
@@ -80,8 +80,9 @@ body {
 
 h1{
 	color: #9CDE45;
+	text-shadow:#A3A3A3 0px 1px 0, #555 0 -1px 0;
 }
 
 footer {
-	padding-top: 70%;
+	padding-top: 60%;
 }
