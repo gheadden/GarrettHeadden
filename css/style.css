@@ -3,8 +3,8 @@ body {
 }
 
 .whole-thing{
-	margin-left: 2.5%;
-	margin-right: auto;
+	margin-left: 7.5%;
+	margin-right: 15%;
 	margin-top: 5%;
 }
 
@@ -33,6 +33,11 @@ body {
 	color: #D6DBDB;
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
+}
+
+.button-click a{
+	color: #9CDE45 !important;
+	text-decoration: underline !important;
 }
 
 .name {
@@ -78,11 +83,38 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-h1{
-	color: #9CDE45;
-	text-shadow:#A3A3A3 0px 1px 0, #555 0 -1px 0;
+footer {
+	padding-top: 50%;
+	color: #D6DBDB; 
+	font-family: 'Josefin Sans', sans-serif; 
+	text-decoration: none; 
+	position: relative;
 }
 
-footer {
-	padding-top: 60%;
+.green-accent-words {
+	display: inline-block; 
+	color: #9CDE45; 
+	font-family: 'Josefin Sans', sans-serif; 
+	text-decoration: none; 
+	position: relative;
+}
+
+.blue-accent-words {
+	display: inline-block; 
+	color: #57A0CA; 
+	font-family: 'Josefin Sans', sans-serif; 
+	text-decoration: none; 
+	position: relative;
+}
+
+.orange-accent-words {
+	color: #FF8200;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.inline-left{
+	margin-right: 70px;
 }

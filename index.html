@@ -25,6 +25,10 @@
 
 				$( "#who-i-am-button" ).click(function() {
 					$("#who-i-am-id").fadeToggle();
+					$("#who-i-am-button").toggleClass("button-click");
+					$("#why-i-am-here-button").removeClass("button-click");
+					$("#what-i-do-button").removeClass("button-click");
+					$("#how-to-contact-me-button").removeClass("button-click");
 					$("#what-i-do-id").css('display', 'none');
 					$("#why-i-am-here-id").css('display', 'none');
 					$("#how-to-contact-me-id").css('display', 'none');
@@ -32,6 +36,10 @@
 
 				$( "#why-i-am-here-button" ).click(function() {
 					$("#why-i-am-here-id").fadeToggle();
+					$("#why-i-am-here-button").toggleClass("button-click");
+					$("#who-i-am-button").removeClass("button-click");
+					$("#what-i-do-button").removeClass("button-click");
+					$("#how-to-contact-me-button").removeClass("button-click");
 					$("#who-i-am-id").css('display', 'none');
 					$("#what-i-do-id").css('display', 'none');
 					$("#how-to-contact-me-id").css('display', 'none');
@@ -39,6 +47,10 @@
 
 				$( "#what-i-do-button" ).click(function() {
 					$("#what-i-do-id").fadeToggle();
+					$("#what-i-do-button").toggleClass("button-click");
+					$("#why-i-am-here-button").removeClass("button-click");
+					$("#who-i-am-button").removeClass("button-click");
+					$("#how-to-contact-me-button").removeClass("button-click");
 					$("#who-i-am-id").css('display', 'none');
 					$("#why-i-am-here-id").css('display', 'none');
 					$("#how-to-contact-me-id").css('display', 'none');
@@ -46,6 +58,10 @@
 
 				$( "#how-to-contact-me-button" ).click(function() {
 					$("#how-to-contact-me-id").fadeToggle();
+					$("#how-to-contact-me-button").toggleClass("button-click");
+					$("#why-i-am-here-button").removeClass("button-click");
+					$("#what-i-do-button").removeClass("button-click");
+					$("#who-i-am-button").removeClass("button-click");
 					$("#who-i-am-id").css('display', 'none');
 					$("#why-i-am-here-id").css('display', 'none');
 					$("#what-i-do-id").css('display', 'none');
@@ -60,7 +76,7 @@
 	<body>
 		<div class="whole-thing">
 			<div class="name">Garrett Headden</div>		
-			<div class="line"></div>
+			<hr>
 			<ul class="menu-buttons">
 				<li id="who-i-am-button"><a href="#">who i am</a></li>
 				<li id="why-i-am-here-button"><a href="#">why i am here</a></li>
@@ -69,59 +85,83 @@
 			</ul>
 			<br>
 			<div class="who-i-am" id="who-i-am-id">
-				<h1>who i am</h1>
+				<br>
+					<p style="font-size: xx-large; margin-left: 2.5%;">My name is <span class="green-accent-words">Garrett Headden</span>.</p>
+					<p style="margin-left: 17.5%; font-size: medium;">I was born and raised in <span class="blue-accent-words">Knoxville, TN</span>.</p>
+					<p style="margin-left: 35%; font-size: x-large;">The son of two <span class="green-accent-words">hard-working</span>, business-minded <span class="green-accent-words">parents</span>.</p>
+				<br>
 				<hr>
-				<p>My name is Garrett Headden.  I was born and raised in Knoxville, TN.  The son of two hard-working, business-minded parents.</p>
-				
-				<p>I have just recently graduated from the University of Tennessee with a degree in business management and entrepreneurship.</p>
-
-				<p>As a business professional, I am an entrepreneur.  More specifically a web developer and marketing specialist.</p>
+				<br>
+					<p style="font-size: larger; margin-left: 2.5%">I have just recently graduated from the <span class="orange-accent-words">University of Tennessee</span> with a degree in <span class="blue-accent-words">business management</span> and <span class="blue-accent-words">	entrepreneurship</span>.</p>
+				<br>
+				<hr>
+				<br>
+					<p style="font-size: x-large; margin-left: 2.5%;">As a business professional<span class="green-accent-words">...</span></p>
+					<p style="margin-left: 40%; font-size: xx-large;">I am an <span class="blue-accent-words">entrepreneur</span>.</p>
+					<p style="margin-left: 15%; font-size: large;">More specifically a <span class="green-accent-words">web developer</span> and <span class="green-accent-words">marketing specialist</span>.</p>
+				<br>
+				<hr>
 			</div>
 			<div class="why-i-am-here" id="why-i-am-here-id">
-				<h1>why i am here</h1>
-				<hr>
-				<p>My passion is communication.  Making it easier.  More transparent.</p>
-				
-				<p style="text-indent: 4%;">If everyone communicated openly and honestly, life’s processes would streamline.</p>
-
 				<br>
-
-				<p>Communication drives relationships.  Relationships encourage mindfulness.  Mindfulness stimulates open minded thinking, and open minded thinking brings greater knowledge.</p>
-
-				<p>Knowledge has to be the foundation of where we go next because ignorance kills creativity.  Ignorance kills collaboration.  Ignorance kills the basis of every bit of progress we try to make over time.</p>
-
-				<p>My vision is to create a world where people communicate at a level where ignorance and judgment are nonexistent, knocking down any self-made barrier placed in the way of progress and learning.</p>
-
-				<p>The only things left to ask…</p>
+					<p style="font-size: xx-large; margin-left: 2.5%">My passion is <span class="green-accent-words">communication</span>.</p>
+					<p style="margin-left: 37%; font-size: large;">Making it <span class="blue-accent-words">easier</span>.</p>
+					<p style="margin-left: 25%; font-size: large;">More <span class="green-accent-words">transparent</span>.</p>
+				<br>
+				<hr>
+				<br>
+					<p style="margin-left: 7%; font-size: medium;"><span class="green-accent-words" style="font-size: xx-large;">communication</span> drives <span class="blue-accent-words" style="font-size: xx-large;">relationships</span></p>
+					<p style="margin-left: 17%; font-size: medium;"><span class="blue-accent-words" style="font-size: xx-large;">relationships</span> encourage <span class="green-accent-words" style="font-size: xx-large;">mindfulness</span></p>
+					<p style="margin-left: 27%; font-size: medium;"><span class="green-accent-words" style="font-size: xx-large;">mindfulness</span> stimulates <span class="blue-accent-words" style="font-size: xx-large;">open minded thinking</span></p>
+					<p style="margin-left: 37%; font-size: medium;"><span class="blue-accent-words" style="font-size: xx-large;">open minded thinking</span> brings greater <span class="green-accent-words" style="font-size: xx-large;">knowledge</span></p>
+				<br>
+				<hr>
+				<br>
+					<p style="font-size: xx-large; margin-left: 2.5%"><span class="green-accent-words">Knowledge</span> has to be the foundation of where we go next.</p>
+				<br>
+					<p style="margin-left: 10%; font-size: x-large;">Lack of <span class="green-accent-words">knowledge</span> leads to <span class="blue-accent-words">ignorance</span>.</p>
+					<p style="margin-left: 15%; font-size: large;"><span class="blue-accent-words">Ignorance</span> kills creativity.</p>
+					<p style="margin-left: 15%; font-size: large;"><span class="blue-accent-words">Ignorance</span> kills collaboration.</p>
+					<p style="margin-left: 15%; font-size: large;"><span class="blue-accent-words">Ignorance</span> kills the basis of every bit of progress we try to make over time.</p>
+				<br>
+					<p>My vision is to create a world where people communicate at a level where ignorance and judgment are nonexistent, knocking down any self-made barrier placed in the way of progress and learning.</p>
+				<br>
+					<p style="margin-left: 5%;">If everyone communicated openly and honestly, life’s processes would streamline.</p>
+				<br>
+					<p>The only things left to ask…</p>
+				<br>
+					<p style="margin-left: 20%;">Are we willing to work harder?</p>
 				
-				<p>Are we willing to work harder?</p>
+					<p style="margin-left: 15%;">Are we willing to care that much?</p>
 				
-				<p>Are we willing to care that much?</p>
+					<p style="margin-left: 10%;">Are we willing to be entirely selfless, yet remain confclassent and motivated at the same time?</p>
 				
-				<p>Are we willing to be entirely selfless, yet remain confclassent and motivated at the same time?</p>
-				
-				<p>Can we be a sponge for knowledge, but never lose grasp on the knowledge we have to offer the world?</p>
+					<p style="margin-left: 5%;">Can we be a sponge for knowledge, but never lose grasp on the knowledge we have to offer the world?</p>
+				<br>
+				<hr>
 			</div>
 			<div class="what-i-do" id="what-i-do-id">
-				<h1>what i do</h1>
+				<br>
+					<p>Currently, all of my time and energy is going into furthering the efforts of a local startup web development company, Project Novo.</p>
+
+					<p>My team consists of Valentino Constantinou. Trevor Overman. and Taylor Stevens.</p>
+
+					<p>We aim to provclasse the highest quality websites, at a price to provclasse your business the maximum possible value out of your technological presence.</p>
+
+					<p>Our skills focus on creating an online presence that communicates your business’s brand in a manner that caters directly to your specific target customer, all while doing so in a creative business atmosphere that is collaborative and open without any barrier to communication.</p>
+				<br>
 				<hr>
-				<p>Currently, all of my time and energy is going into furthering the efforts of a local startup web development company, Project Novo.</p>
-
-				<p>My team consists of Valentino Constantinou. Trevor Overman. and Taylor Stevens.</p>
-
-				<p>We aim to provclasse the highest quality websites, at a price to provclasse your business the maximum possible value out of your technological presence.</p>
-
-				<p>Our skills focus on creating an online presence that communicates your business’s brand in a manner that caters directly to your specific target customer, all while doing so in a creative business atmosphere that is collaborative and open without any barrier to communication.</p>
 			</div>
 			<div class="how-to-contact-me" id="how-to-contact-me-id">
-				<h1>how to contact me</h1>
+				<br>
+					<p>865.696.9382</p>
+					<a href="mailto:garrettheadden@gmail.com">garrettheadden@gmail.com</a>
+				<br>
 				<hr>
-				<p>865.696.9382</p>
-				<a href="mailto:garrettheadden@gmail.com">garrettheadden@gmail.com</a>
 			</div>
 			<footer>
-  				<p style="display: inline-block; color: #D6DBDB; font-family: 'Josefin Sans', sans-serif; text-decoration: none; position: relative;">designed by</p> <a href="http://garrettheadden.com/" style="color: #9CDE45;">garrett headden</a> <p style="display: inline-block; color: #D6DBDB; font-family: 'Josefin Sans', sans-serif; text-decoration: none;">in association with</p> <p style="display: inline-block; color: #9CDE45; font-family: 'Josefin Sans', sans-serif; text-decoration: none; position: relative;">projectnovo</p>
-  				<p style="display: inline-block; color: #D6DBDB; font-family: 'Josefin Sans', sans-serif; text-decoration: none; position: relative; padding-left: 100px;">contact: <a href="mailto:garrettheadden@gmail.com" style="color: #9CDE45;">garrettheadden@gmail.com</a></p>
+  				<p class="inline inline-left">designed by <a href="http://garrettheadden.com/" class="green-accent-words">garrett headden</a> in association with <span class="green-accent-words">projectnovo</span></p>
+  				<p class="inline">contact: <a href="mailto:garrettheadden@gmail.com" class="green-accent-words">garrettheadden@gmail.com</a></p>
 			</footer>
 		</div>
 	</body>
