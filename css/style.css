@@ -36,8 +36,7 @@ body {
 }
 
 .button-click a{
-	color: #9CDE45 !important;
-	text-decoration: underline !important;
+	color: #94C535 !important;
 }
 
 .name {
@@ -45,13 +44,6 @@ body {
 	font-family: 'Alex Brush', cursive;
 	font-size: 70px;
 	color: #D6DBDB;
-}
-
-.line {
-	position: relative;
-	height: 2px;
-	width: 90%;
-	background-color: #D6DBDB;
 }
 
 .who-i-am {
@@ -93,7 +85,7 @@ footer {
 
 .green-accent-words {
 	display: inline-block; 
-	color: #9CDE45; 
+	color: #94C535; 
 	font-family: 'Josefin Sans', sans-serif; 
 	text-decoration: none; 
 	position: relative;
