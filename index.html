@@ -42,7 +42,11 @@
 				});
 
 				$( "#who-i-am-button" ).click(function() {
-					$("#who-i-am-id").fadeToggle();
+					$("#who-i-am-id").fadeToggle('slow', function(){
+            		$("#why-i-am-here-id").fadeOut(1000).delay(500);
+					$("#what-i-do-id").fadeOut(1000).delay(500);
+					$("#how-to-contact-me-id").fadeOut(1000).delay(500);
+        			});
 					$("#who-i-am-button").toggleClass("button-click");
 					$("#why-i-am-here-button").removeClass("button-click");
 					$("#what-i-do-button").removeClass("button-click");
@@ -53,7 +57,11 @@
 				});
 
 				$( "#why-i-am-here-button" ).click(function() {
-					$("#why-i-am-here-id").fadeToggle();
+					$("#why-i-am-here-id").fadeToggle('slow', function(){
+            		$("#who-i-am-id").fadeOut(1000).delay(500);
+					$("#what-i-do-id").fadeOut(1000).delay(500);
+					$("#how-to-contact-me-id").fadeOut(1000).delay(500);
+        			});
 					$("#why-i-am-here-button").toggleClass("button-click");
 					$("#who-i-am-button").removeClass("button-click");
 					$("#what-i-do-button").removeClass("button-click");
@@ -64,7 +72,11 @@
 				});
 
 				$( "#what-i-do-button" ).click(function() {
-					$("#what-i-do-id").fadeToggle();
+					$("#what-i-do-id").fadeToggle('slow', function(){
+            		$("#why-i-am-here-id").fadeOut(1000).delay(500);
+					$("#who-i-am-id").fadeOut(1000).delay(500);
+					$("#how-to-contact-me-id").fadeOut(1000).delay(500);
+        			});
 					$("#what-i-do-button").toggleClass("button-click");
 					$("#why-i-am-here-button").removeClass("button-click");
 					$("#who-i-am-button").removeClass("button-click");
@@ -75,7 +87,11 @@
 				});
 
 				$( "#how-to-contact-me-button" ).click(function() {
-					$("#how-to-contact-me-id").fadeToggle();
+					$("#how-to-contact-me-id").fadeToggle('slow', function(){
+            		$("#why-i-am-here-id").fadeOut(1000).delay(500);
+					$("#what-i-do-id").fadeOut(1000).delay(500);
+					$("#who-i-am-id").fadeOut(1000).delay(500);
+        			});
 					$("#how-to-contact-me-button").toggleClass("button-click");
 					$("#why-i-am-here-button").removeClass("button-click");
 					$("#what-i-do-button").removeClass("button-click");
@@ -144,9 +160,11 @@
 				<br>
 				<hr style="border-color: #908A88;">
 				<br>
-					<p style="margin-left: 2.5%; font-size: large; line-height: 200%;">My <span class="green-accent-words">vision</span> is to create a <span class="green-accent-words">world</span> where people communicate at a level where <span class="blue-accent-words">ignorance</span> and <span class="blue-accent-words">judgment</span> are nonexistent, <span class="green-accent-words">knocking down</span> any self-made <span class="green-accent-words">barrier</span> placed in the way of <span class="blue-accent-words">progress</span> and <span class="blue-accent-words">learning</span>.</p>
+					<p style="margin-left: 2.5%; font-size: x-large; line-height: 200%;">My <span class="green-accent-words">vision</span> is to create a <span class="green-accent-words">world</span> where people communicate at a level where <span class="blue-accent-words">ignorance</span> and <span class="blue-accent-words">judgment</span> are nonexistent, <span class="green-accent-words">knocking down</span> any self-made <span class="green-accent-words">barrier</span> placed in the way of <span class="blue-accent-words">progress</span> and <span class="blue-accent-words">learning</span>.</p>
 				<br>
-					<p style="margin-left: 5%; font-size: xx-large; line-height: 150%;">If everyone communicated <span class="blue-accent-words">openly</span> and <span class="blue-accent-words">honestly</span>, life’s <span class="green-accent-words">processes</span> would <span class="green-accent-words">streamline</span>.</p>
+					<p style="margin-left: 10%; font-size: larger; line-height: 150%;">If everyone communicated <span class="blue-accent-words">openly</span> and <span class="blue-accent-words">honestly</span>, life’s <span class="green-accent-words">processes</span> would <span class="green-accent-words">streamline</span>.</p>
+				<br>
+				<hr style="border-color: #908A88;">
 				<br>
 					<p style="margin-left: 2.5%; font-size: x-large;">The only things left to ask…</p>
 				<br>
@@ -171,7 +189,7 @@
 					<p style="margin-left: 7.5%; font-size: larger; line-height: 200%;">Our <span class="blue-accent-words">skills</span> focus on <span class="blue-accent-words">creating</span> an <span class="blue-accent-words">online presence</span> that communicates your business’s brand in a manner that caters directly to your specific <span class="blue-accent-words">target customer</span>, all while doing so in a <span class="green-accent-words">creative</span> business atmosphere that is <span class="green-accent-words">collaborative</span> and <span class="green-accent-words">open</span> without any barrier to communication.</p>
 				<br>
 			</div>
-			<div class="how-to-contact-me" id="how-to-contact-me-id" style="font-size: 300%;">
+			<div class="how-to-contact-me" id="how-to-contact-me-id" style="font-size: 250%;">
 				<br>
 					<a href="tel:18656969382" style="color: #94C535; text-decoration: none;"><i class="fa fa-phone"></i> <span style="color: #D6DBDB; font-size: 40%;">865.696.9382</span></a>
 					<br>
@@ -186,6 +204,7 @@
 			</div>
 			<footer>
 				<hr style="border-color: #908A88;">
+				<br>
   					<p class="inline inline-left">designed by <a href="http://garrettheadden.com/" class="green-accent-words">garrett headden</a> in association with <span class="green-accent-words">projectnovo</span></p>
   					<p class="inline">contact: <a href="mailto:garrettheadden@gmail.com" class="green-accent-words">garrettheadden@gmail.com</a></p>
 			</footer>
